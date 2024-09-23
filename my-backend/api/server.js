@@ -7,7 +7,7 @@ require('dotenv').config();
 // Enable CORS for both local development and production (on Vercel)
 const allowedOrigins = [
     'http://localhost:3000', // Local React dev
-    'https://your-vercel-frontend-url.vercel.app' // Add your Vercel frontend URL
+
 ];
 
 app.use(cors({
